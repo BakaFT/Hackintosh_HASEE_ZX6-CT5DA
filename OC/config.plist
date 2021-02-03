@@ -160,11 +160,6 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
-			<dict>
-				<key>layout-id</key>
-				<data>HQAAAA==</data>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
@@ -215,6 +210,23 @@
 				<string>onboard-1</string>
 				<key>model</key>
 				<string>Intel UHD Graphics 630 (Mobile)</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,31,3</string>
+				<key>alc-delay</key>
+				<integer>500</integer>
+				<key>device-id</key>
+				<data>cKEAAA==</data>
+				<key>device_type</key>
+				<string>Audio device</string>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>layout-id</key>
+				<data>HQAAAA==</data>
+				<key>model</key>
+				<string>Realtek ALC269VC HD Audio</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
